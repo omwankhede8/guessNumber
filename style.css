@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 2px'Poppins', sans-serif;
+  color: #eee;
+  background-color: #222;
+  /* background-color: #60b347; */
+}
+
+/* LAYOUT */
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid #eee;
+}
+
+main {
+  height: 65vh;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  width: 52rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  width: 52rem;
+  font-size: 2rem;
+}
+
+/* ELEMENTS STYLE */
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.number {
+  background: #ffffff;
+  color: #070505;
+  font-size: 6rem;
+  width: 15rem;
+  padding: 3rem 0rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  border-radius: 5vb;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.between {
+  font-size: 1.4rem;
+  position: absolute;
+  bottom: 29.5rem;
+  right: 4rem;
+  
+}
+
+.again {
+  position: absolute;
+  bottom: 12rem;
+  right:  3rem;
+  border-radius: 5vb;
+}
+
+.guess {
+  background: none;
+  border: 4px solid #ef1717;
+  font-family: inherit;
+  color: inherit;
+  font-size: 5rem;
+  padding: 2.5rem;
+  width: 25rem;
+  text-align: center;
+  display: block;
+  margin-bottom: 3rem;
+  border-radius: 5vb;
+}
+
+.btn {
+  border: none;
+  background-color: #9ca09b;
+  color: #222;
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 2rem 3rem;
+  cursor: pointer;
+  border-radius: 5vb;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+}
+
+.message {
+  margin-bottom: 8rem;
+  height: 3rem;
+}
+
+.label-score {
+  margin-bottom: 2rem;
+}
